@@ -1,7 +1,10 @@
 [Unit]
 Description=YSF Parrot Service
 # Description=Place this file in /lib/systemd/system
-# Description=N4IRS 04/30/2020
+# Description=N4IRS 04/20/2018
+
+After=netcheck.service
+Requires=netcheck.service
 
 [Service]
 Type=simple
