@@ -4,6 +4,7 @@ Description=YSF Parrot Service
 # Description=N4IRS 04/30/2020
 
 After=netcheck.service
+Requires=netcheck.service
 
 [Service]
 Type=simple
